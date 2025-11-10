@@ -1,4 +1,10 @@
 # CREDIT-SCORE AND DEFAULT PREDICTION
+https://www.kaggle.com/datasets/conorsully1/credit-score
+El dataset contiene 1000 observaciones con 84 variables financieras de los individuos. Las variables objetivo son CREDI_SCORE y DEFAULT
+
+Otras variables son: 
+INCOME, SAVINGS, DEBT, R_SAVINGS_INCOME, R_DEBT_INCOME, R_DEBT_SAVINGS, CAT_GAMBLING, CAT_CREDIT_CARD, CAT_MORTGAGE, CAT_SAVINGS_ACCOUNT, CAT_DEPENDENTS
+
 #INSIGHTS
 Comportamientos de personas en default:
 -	Los clientes en default destinan una proporción mucho mayor de sus ahorros a educación. 
