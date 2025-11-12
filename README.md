@@ -1,20 +1,51 @@
-# CREDIT-SCORE AND DEFAULT PREDICTION
-https://www.kaggle.com/datasets/conorsully1/credit-score
-El dataset contiene 1000 observaciones con 84 variables financieras de los individuos. Las variables objetivo son CREDI_SCORE y DEFAULT
+🧮 Credit Score and Default Prediction
 
-Otras variables son: 
-INCOME, SAVINGS, DEBT, R_SAVINGS_INCOME, R_DEBT_INCOME, R_DEBT_SAVINGS, CAT_GAMBLING, CAT_CREDIT_CARD, CAT_MORTGAGE, CAT_SAVINGS_ACCOUNT, CAT_DEPENDENTS
+📊 Dataset: Credit Score
 
-#INSIGHTS
-Comportamientos de personas en default:
--	Los clientes en default destinan una proporción mucho mayor de sus ahorros a educación. 
-- Quienes caen en default mantienen relación deuda/ingresos y deuda/ahorro mucho mayor, lo que refleja vulnerabilidad financiera y sobreendeudamiento.	
--	Incremento fuerte en multas en los últimos 6 meses. Posible indicador de comportamiento desorganizado o inestabilidad económica reciente.	
--	Alta proporción de multas respecto a ahorros. Puede reflejar poca capacidad de pago ante gastos imprevistos.
--	Gastan más en alimentos relativo a sus ahorros, indicando presión en gastos básicos y bajo margen de ahorro.	
-- Mayor proporción de personas con tarjeta de crédito entre los morosos
+📁 Observaciones: 1,000
+📈 Variables: 84 (financieras y demográficas)
+🎯 Variables objetivo: CREDIT_SCORE y DEFAULT
 
-Las variables con mas correlación con el credit score son:
-- Ratio deuda/ingreso(85,8%), dueda/ahorro(45%), y deuda ,todas impactan negativamente en la puntuacion.
-- ratio de consumo/deuda, utilidades/deuda e impuestos/deuda tienen 30% de correlacion positiva. Implica que pueden sostener consumo y pagar impuestos sin endeudarse, ademas de estar mejor controlados financieramente.
+🧠 Descripción general
+
+El dataset contiene información financiera detallada de individuos, incluyendo ingresos, ahorros, deudas, relaciones entre variables financieras y categorías socioeconómicas.
+El objetivo principal es predecir el puntaje crediticio (CREDIT_SCORE) y la probabilidad de default (DEFAULT).
+
+📌 Variables destacadas
+Tipo	Variable	Descripción
+Numérica	INCOME	Ingreso mensual del individuo
+Numérica	SAVINGS	Monto total de ahorros
+Numérica	DEBT	Monto total de deudas
+Relacional	R_SAVINGS_INCOME	Ahorros en relación a ingresos
+Relacional	R_DEBT_INCOME	Deuda en relación a ingresos
+Relacional	R_DEBT_SAVINGS	Deuda en relación a ahorros
+Categórica	CAT_GAMBLING	Presencia de gastos en juego/apuestas
+Categórica	CAT_CREDIT_CARD	Posee tarjeta de crédito
+Categórica	CAT_MORTGAGE	Tiene hipoteca
+Categórica	CAT_SAVINGS_ACCOUNT	Posee cuenta de ahorros
+Categórica	CAT_DEPENDENTS	Tiene dependientes económicos
+
+💡 Principales insights
+🔻 Comportamientos asociados al default
+
+-Los clientes en default destinan una proporción mucho mayor de sus ahorros a educación.
+
+-Presentan ratios deuda/ingreso y deuda/ahorro considerablemente más altos → indican vulnerabilidad financiera y sobreendeudamiento.
+
+-Se observa un incremento notable en multas durante los últimos 6 meses → posible reflejo de desorganización financiera o inestabilidad reciente.
+
+-Muestran una alta proporción de multas respecto a ahorros, sugiriendo poca capacidad para enfrentar gastos imprevistos.
+
+-Gastan más en alimentos en relación a sus ahorros, lo que indica presión en gastos básicos y bajo margen de ahorro.
+
+-Mayor proporción de personas con tarjeta de crédito entre los morosos.
+
+<div align="center"> <img width="700" src="https://github.com/user-attachments/assets/02ebca1a-df05-4b9f-83e6-7cac7c51f853" alt="Default Behaviors Visualization"> </div>
+📈 Variables más correlacionadas con el Credit Score
+Variable	Correlación	Interpretación
+R_DEBT_INCOME	-0.86	Una mayor deuda relativa a los ingresos reduce significativamente el puntaje crediticio.
+R_DEBT_SAVINGS	-0.45	Niveles altos de deuda respecto a ahorros también impactan negativamente.
+DEBT	-0.33	El endeudamiento total está inversamente relacionado con el crédito.
+R_EXPENDITURE_DEBT, R_UTILITIES_DEBT, R_TAX_DEBT	+0.30	Una mejor capacidad para sostener consumo y pagar impuestos sin endeudarse refleja mayor control financiero.
+<div align="center"> <img width="700" src="https://github.com/user-attachments/assets/b85a23d0-7d91-4399-b008-b90e2f6b9ba5" alt="Credit Score Correlations Visualization"> </div>
 
