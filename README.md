@@ -60,3 +60,15 @@ El objetivo principal es **predecir el puntaje crediticio** (`CREDIT_SCORE`) y *
 <div align="center">
   <img width="700" src="https://github.com/user-attachments/assets/b85a23d0-7d91-4399-b008-b90e2f6b9ba5" alt="Credit Score Correlations Visualization">
 </div>
+
+Metricas de los modelos: 
+RF: 
+RMSE : 31.2273 , MAE  : 23.1791 , R²   : 0.7927 
+> cat("RMSE:", round(test_rmse, 4), "\n")
+XGBOOST
+RMSE: 27.7407 , MAE: 21.1174 , R²: 0.8249
+lgbm
+RMSE: 28.6926, MAE: 21.3756, R²: 0.8098   
+
+
+El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE y MAE, contando ademas con mayor r^2.
