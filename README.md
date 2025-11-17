@@ -71,3 +71,6 @@ RMSE: 28.6926, MAE: 21.3756, R²: 0.8098
 
 
 El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE y MAE, contando ademas con mayor r^2.
+<img width="1340" height="692" alt="Captura de pantalla 2025-11-16 210854" src="https://github.com/user-attachments/assets/bf89c5c5-219d-4589-9df3-a89a19bff9c1" />
+Los puntos representan las coordenadas de valor real vs valor predicho, lo ideal es que estos puntos se encuentren dentro de la recta ya que esto significaría que el modelo se acerca a lo real. La mayoría de puntos se encuentran dentro de la banda de error.
+
