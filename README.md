@@ -63,14 +63,13 @@ El objetivo principal es **predecir el puntaje crediticio** (`CREDIT_SCORE`) y *
 
 Metricas de los modelos: 
 RF: 
-RMSE : 28,781 , MAE  : 22.1175 , R²   : 0.811, MAPE 4,02
+RMSE : 28,781 , MAE  : 22.1175 , R² : 0.811, MAPE 4,02
 XGBOOST
 RMSE: 27.7407 , MAE: 21.1174 , R²: 0.8249, MAPE: 3,69%
 lgbm
-RMSE: 28.6926, MAE: 21.3756, R²: 0.8098   
+RMSE: 28.4413, MAE: 20.8972 , R²: 0.8135,MAPE : 3.78 %  
 
-
-El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE y MAE, contando ademas con mayor r^2.
+El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE, MAE y MAPE, contando ademas con mayor r^2.
 <img width="1340" height="692" alt="Captura de pantalla 2025-11-16 210854" src="https://github.com/user-attachments/assets/bf89c5c5-219d-4589-9df3-a89a19bff9c1" />
 Los puntos representan las coordenadas de valor real vs valor predicho, lo ideal es que estos puntos se encuentren dentro de la recta ya que esto significaría que el modelo se acerca a lo real. La mayoría de puntos se encuentran dentro de la banda de error.
 
