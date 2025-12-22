@@ -63,9 +63,9 @@ El objetivo principal es **predecir el puntaje crediticio** (`CREDIT_SCORE`) y *
 
 Metricas de los modelos: 
 RF: 
-RMSE : 31.2273 , MAE  : 23.1791 , R²   : 0.7927 
+RMSE : 28,781 , MAE  : 22.1175 , R²   : 0.811, MAPE 4,02
 XGBOOST
-RMSE: 27.7407 , MAE: 21.1174 , R²: 0.8249
+RMSE: 27.7407 , MAE: 21.1174 , R²: 0.8249, MAPE: 3,69%
 lgbm
 RMSE: 28.6926, MAE: 21.3756, R²: 0.8098   
 
