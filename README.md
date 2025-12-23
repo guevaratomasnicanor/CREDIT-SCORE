@@ -69,7 +69,7 @@ RMSE: 27.7407 , MAE: 21.1174 , R²: 0.8249, MAPE: 3,69%
 lgbm
 RMSE: 28.4413, MAE: 20.8972 , R²: 0.8135,MAPE : 3.78 %  
 
-El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE, MAE y MAPE, contando ademas con mayor r^2.
+El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE, MAE y MAPE, contando ademas con mayor r^2. La diferencia entre real y predicho es en promedio de 3,69%, o 22 puntos de score crediticio. El modelo explica un 82,5% de la variabilidad en los datos.
 <img width="1340" height="692" alt="Captura de pantalla 2025-11-16 210854" src="https://github.com/user-attachments/assets/bf89c5c5-219d-4589-9df3-a89a19bff9c1" />
 Los puntos representan las coordenadas de valor real vs valor predicho, lo ideal es que estos puntos se encuentren dentro de la recta ya que esto significaría que el modelo se acerca a lo real. La mayoría de puntos se encuentran dentro de la banda de error.
 
