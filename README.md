@@ -61,13 +61,14 @@ El objetivo principal es **predecir el puntaje crediticio** (`CREDIT_SCORE`) y *
   <img width="700" src="https://github.com/user-attachments/assets/b85a23d0-7d91-4399-b008-b90e2f6b9ba5" alt="Credit Score Correlations Visualization">
 </div>
 
-Metricas de los modelos: 
-RF: 
-RMSE : 28,781 , MAE  : 22.1175 , R² : 0.811, MAPE 4,02
-XGBOOST
-RMSE: 27.7407 , MAE: 21.1174 , R²: 0.8249, MAPE: 3,69%
-lgbm
-RMSE: 28.4413, MAE: 20.8972 , R²: 0.8135,MAPE : 3.78 %  
+## 📊 Métricas de los Modelos
+
+| Modelo   | RMSE     | MAE      | R²     | MAPE (%) |
+|----------|----------|----------|--------|----------|
+| Random Forest (RF) | 28.7810 | 22.1175 | 0.8110 | 4.02 |
+| XGBoost  | 27.7407 | 21.1174 | 0.8249 | 3.69 |
+| LightGBM (LGBM) | 28.4413 | 20.8972 | 0.8135 | 3.78 |
+ 
 
 El mejor modelo es el XGBOOST, ya que tiene menos error en RMSE, MAE y MAPE, contando ademas con mayor r^2. La diferencia entre real y predicho es en promedio de 3,69%, o 22 puntos de score crediticio. El modelo explica un 82,5% de la variabilidad en los datos.
 <img width="1340" height="692" alt="Captura de pantalla 2025-11-16 210854" src="https://github.com/user-attachments/assets/bf89c5c5-219d-4589-9df3-a89a19bff9c1" />
